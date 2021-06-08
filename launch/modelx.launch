@@ -1,7 +1,7 @@
 <launch>
 
-    <arg name="model" default="$(find marrtino_utilities)/urdf/marrtinox.urdf.xacro"/>
-    <arg name="rvizconfig" default="$(find marrtino_utilities)/rviz/urdf.rviz" />
+    <arg name="model" default="$(find marrtinox_description)/urdf/marrtinox.urdf.xacro"/>
+    <arg name="rvizconfig" default="$(find marrtinox_description)/rviz/urdf.rviz" />
 
 
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>

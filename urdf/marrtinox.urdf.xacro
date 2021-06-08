@@ -59,7 +59,7 @@
             <origin rpy="0 0 3.1415" xyz="0 -0.08 -0.18"/>
             <geometry>
                 <!--<box size="${b_length} ${b_width} ${b_height}"/>-->
-                <mesh filename="package://marrtino_utilities/urdf/marrtinox/base.dae" scale="0.001 0.001 0.001" />
+                <mesh filename="package://marrtinox_description/urdf/marrtinox/base.dae" scale="0.001 0.001 0.001" />
                   
             </geometry>
            
